@@ -9,6 +9,8 @@
 body {
     font-family: "Poppins", sans-serif;
     font-style: normal;
+    background-color: whitesmoke;
+    color:green;
 }
 
 html {
@@ -16,7 +18,7 @@ html {
 }
 
 p {
-    color: #555555;
+    color: blue;
 }
 
 /* TRANSITION */
@@ -34,6 +36,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+    color:#007bff
 }
 
 .nav-links {
@@ -57,10 +60,13 @@ a:hover {
     font-size: 2rem;
     cursor: default;
 }
-
+#desktop-nav{
+    display: none;
+}
 .hamburger-menu {
     position: relative;
     display: inline-block;
+
 }
 
 .hamburger-icon {
@@ -83,7 +89,7 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: white;
+    background-color: black;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -95,7 +101,7 @@ a:hover {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: black;
+    color: white;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
@@ -137,13 +143,20 @@ section {
 /* PROFILE SECTION */
 #profile {
     display: flex;
-    margin: 10;
-    gap: 5rem;
-    height: 80vh;
+    margin:60px;
+    gap:0;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.section_pic-container{
+    margin: right 0%;;
+    margin-top:0;
+    padding-left:0%;
+
 }
 
 .section_text {
