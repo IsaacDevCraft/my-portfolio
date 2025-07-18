@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my portfolio repository! This project showcases my skills, projects, and experiences as a web developer.
+Welcome to my portfolio repository! This project showcases my skills, projects, and experiences as a Data Analyst.
 
 ## Overview
 
@@ -24,4 +24,4 @@ This repository contains the source code for my portfolio website, which I desig
 
 ---
 
-Thank you for visiting my portfolio repository! I hope you enjoy exploring my work and learning more about me as a web developer.
+Thank you for visiting my portfolio repository! I hope you enjoy exploring my work and learning more about me as a Data Analyst.
